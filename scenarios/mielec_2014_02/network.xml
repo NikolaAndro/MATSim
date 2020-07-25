@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v1.dtd">
+<network>
+	<nodes>
+<node id="1" x="4500" y="-2584.9121"/>
+<node id="2" x="3800" y="-2584.9121"/>
+
+</nodes>		
+<links capperiod="01:00:00">
+<!-- Need to add mdoes that are going to be able to use the links-->
+<link id="1" from="1" to="2" length="209" freespeed="6.5" capacity="600" permlanes="2" modes="car, taxi"/>
+<link id="2" from="2" to="1" length="209" freespeed="12.5" capacity="600" permlanes="1" modes="car, taxi"/>
+
+</links>
+</network>
