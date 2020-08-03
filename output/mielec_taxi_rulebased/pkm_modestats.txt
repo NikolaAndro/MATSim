@@ -1,0 +1,2 @@
+Iteration	taxi
+0	150.01
