@@ -19,6 +19,8 @@
 
 package org.matsim.maas.taxi;
 
+import org.apache.log4j.Logger;
+
 import org.matsim.api.core.v01.Scenario;
 import org.matsim.contrib.dvrp.run.DvrpConfigGroup;
 import org.matsim.contrib.dvrp.run.DvrpModule;
@@ -30,6 +32,7 @@ import org.matsim.contrib.taxi.run.TaxiConfigGroup;
 import org.matsim.core.config.Config;
 import org.matsim.core.config.ConfigUtils;
 import org.matsim.core.controler.Controler;
+import org.matsim.core.population.io.PopulationReader;
 import org.matsim.core.scenario.ScenarioUtils;
 import org.matsim.vis.otfvis.OTFVisConfigGroup;
 
@@ -40,18 +43,23 @@ import org.matsim.vis.otfvis.OTFVisConfigGroup;
  */
 
 public class RunTaxiExample {
-	public static final String CONFIG_FILE_RULEBASED = "scenarios/mielec_2014_02/mielec_taxi_config_rulebased.xml";
+	public static final String CONFIG_FILE_RULEBASED = "scenarios/Pigou_multiModal_2020/mielec_taxi_config_rulebased.xml";
 	//public static final String CONFIG_FILE_ASSIGNMENT = "scenarios/mielec_2014_02/mielec_taxi_config_assignment.xml";
-
+	
+	private static final Logger log = Logger.getLogger(PopulationReader.class);
+	
 	public static void run(String configFile, boolean otfvis, int lastIteration) {
 		// load config
+		log.info("=========================================================================This is the line before declaring the config file.");
 		Config config = ConfigUtils.loadConfig(configFile, new MultiModeTaxiConfigGroup(), new DvrpConfigGroup(),
 				new OTFVisConfigGroup());
+		log.info("===========================================================================Config is done. Now Controller.");
 		config.controler().setLastIteration(lastIteration);
-
+		log.info("===========================================================================Controller is done. Now scenario.");
 		// load scenario
 		Scenario scenario = ScenarioUtils.loadScenario(config);
-
+		
+		log.info("===========================================================================sCENARIO is done. Now SCENARIO IN CONTROLLER.");
 		// setup controler
 		Controler controler = new Controler(scenario);
 

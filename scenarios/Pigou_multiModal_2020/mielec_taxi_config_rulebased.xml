@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
+<config>
+	<!-- I do not know what this is for... yet...-->
+	<module name="global">
+		<param name="randomSeed" value="4711" />
+		<param name="coordinateSystem" value="Atlantis" />
+	</module>
+
+	<module name="dvrp">
+	</module>
+
+	<module name="multiModeTaxi">
+		<parameterset type="taxi">
+			<param name="destinationKnown" value="false"/>
+			<param name="vehicleDiversion" value="false"/>
+			<param name="pickupDuration" value="120"/>
+			<param name="dropoffDuration" value="60"/>
+			<param name="onlineVehicleTracker" value="false"/>
+
+			<param name="taxisFile" value="taxis-25.xml"/>
+			<!-- param name="taxisFile" value="taxis-50.xml" / -->
+
+			<param name="timeProfiles" value="true"/>
+			<param name="detailedStats" value="true"/>
+
+			<!-- This is a rule based dispatch algorithm -->
+			<parameterset type="RuleBasedTaxiOptimizer"/>
+
+		</parameterset>
+	</module>
+
+	<module name="network">
+		<param name="inputNetworkFile" value="network.xml"/>
+		<!-- param name="timeVariantNetwork" value="false" / if timeVariantNetwork -->
+		<!-- param name="inputChangeEventsFile" value=""/ if timeVariantNetwork -->
+	</module>
+
+	<module name="plans">
+		<!-- param name="inputPlansFile" value="plans_only_taxi_1.0.xml.gz" / -->
+		<param name="inputPlansFile" value="plans_only_taxi_4.0.xml.gz"/>
+	</module>
+
+	<module name="qsim">
+		<param name="simStarttimeInterpretation" value="onlyUseStarttime"/>
+		<param name="insertingWaitingVehiclesBeforeDrivingVehicles" value="true"/>
+		<param name="snapshotStyle" value="queue"/>
+
+		<!-- "start/endTime" of MobSim (00:00:00 == take earliest activity time/ run as long as active vehicles exist) -->
+		<param name="startTime" value="00:00:00" />
+		<param name="endTime" value="00:00:00" />
+	
+		<param name = "snapshotperiod"	value = "00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
+	</module>
+
+	<module name="otfvis">
+		<param name="coloringScheme" value="taxicab"/>
+		<param name="drawNonMovingItems" value="true"/>
+	</module>
+
+	<module name="planscalcroute"	>
+		<param name="networkModes" value="car,taxi"	/>
+	</module>
+
+	<module name="travelTimeCalculator"	>
+		<param name="analyzedModes" value="car,taxi"	/>
+		<!--<param name="separateModes" value="true"	/>--> <!-- This will cause network of  one mode to be on the top of the network of the other mode. Hence, there is no interaction between 2 different vehicles-->
+	</module>
+
+	<!--need to add vehicles file-->
+	<module name="vehicles" >
+		<param name="vehiclesFile" value="car_vehicles.xml" /> 
+	</module>
+
+	<module name="controler">
+		<param name="outputDirectory" value="output/pigou_cars"/>
+		<param name="overwriteFiles" value="deleteDirectoryIfExists"/>
+		<param name="firstIteration" value="0"/>
+		<param name="lastIteration" value="10"/>
+	</module>
+
+	<module name="planCalcScore">
+		<param name="learningRate" value="1.0" />
+		<param name="BrainExpBeta" value="2.0" />
+
+		<param name="lateArrival" value="-18" />
+		<param name="earlyDeparture" value="-0" />
+		<param name="performing" value="+6" />
+		<param name="traveling" value="-6" />
+		<param name="waiting" value="-0" />
+
+		<param name="activityType_0" value="dummy"/>
+		<param name="activityTypicalDuration_0" value="24:00:00"/>
+		<param name="traveling_taxi" value="-6"/>
+
+		<param name="activityType_2"            value="h" /> <!-- home -->
+		<param name="activityPriority_2"        value="1" />
+		<param name="activityTypicalDuration_2" value="12:00:00" />
+		<param name="activityMinimalDuration_2" value="08:00:00" />
+	
+		<param name="activityType_1"            value="w" /> <!-- work -->
+		<param name="activityPriority_1"        value="1" />
+		<param name="activityTypicalDuration_1" value="08:00:00" />
+		<param name="activityMinimalDuration_1" value="06:00:00" />
+		<param name="activityOpeningTime_1"     value="07:00:00" />
+		<param name="activityLatestStartTime_1" value="09:00:00" />
+		<param name="activityEarliestEndTime_1" value="" />
+		<param name="activityClosingTime_1"     value="18:00:00" />
+	</module>
+
+	<module name="strategy">
+		
+		<param name="maxAgentPlanMemorySize" value="5"/>
+		
+		<param name="ModuleProbability_1" value="0.9" />
+		<param name="Module_1" value="BestScore" />
+
+		<param name="ModuleProbability_2" value="0.1" />
+		<param name="Module_2" value="ReRoute" />
+	</module>
+</config> 
