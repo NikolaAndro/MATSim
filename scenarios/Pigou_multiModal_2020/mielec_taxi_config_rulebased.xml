@@ -73,7 +73,7 @@
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="output/pigou_cars"/>
+		<param name="outputDirectory" value="output/pigou_mixed_traffic"/>
 		<param name="overwriteFiles" value="deleteDirectoryIfExists"/>
 		<param name="firstIteration" value="0"/>
 		<param name="lastIteration" value="10"/>
