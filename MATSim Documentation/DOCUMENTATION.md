@@ -4,7 +4,6 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 
 # Table of Contents
 - MATSim book
-  - [MATSim Book](https://www.matsim.org/the-book)
 - Papers
   - MATSim in general
   - Multimodal and Mixed Networks
@@ -12,4 +11,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 - Useful Links
 - Examples
 - Other Resources
+
+# MATSim book
+  - [MATSim Book](https://www.matsim.org/the-book)
 
