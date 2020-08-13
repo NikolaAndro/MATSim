@@ -19,7 +19,9 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 
 # Useful Links
   - [dtd files](http://www.matsim.org/files/dtd/): Document Type Description files (pgs. 43 & 61 in MATSim book)
-# Examples
 
 # Other Resources
- - [Maven Repository](https://mvnrepository.com/artifact/org.matsim/matsim-examples/12.0-2019w45-SBB): Dependency for MATSim Examples
+  - [Maven Repository](https://mvnrepository.com/artifact/org.matsim/matsim-examples/12.0-2019w45-SBB): Dependency for MATSim Examples
+
+# Examples
+  - [drt_examples - taxi](https://github.com/matsim-org/matsim-maas): Polish city Mielec and German city Cottbus are used
