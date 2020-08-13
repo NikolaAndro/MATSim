@@ -22,4 +22,4 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 # Examples
 
 # Other Resources
-
+ - (Maven Repository](https://mvnrepository.com/artifact/org.matsim/matsim-examples/12.0-2019w45-SBB): Dependency for MATSim Examples
