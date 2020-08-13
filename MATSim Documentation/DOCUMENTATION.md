@@ -18,7 +18,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 # Papers
 
 # Useful Links
-
+  - [dtd files](http://www.matsim.org/files/dtd/) :Document Type Description files (pgs. 43 & 61 in MATSim book)
 # Examples
 
 # Other Resources
