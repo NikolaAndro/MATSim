@@ -49,7 +49,7 @@ With DVRP being the common base to all the modules described here, there is some
 
 ## Test scenarios
 
-The [scenarios](scenarios/) folder contains several test scenarios. These are roughly derived from existing MATSim scenarios, but often depict only the excerpt with relevance to MaaS of the scenario. 
+The [scenarios](scenarios/) folder contains several test scenarios. These are roughly derived from Mielec Example. There is an example with cars only, another one with taxis only, and the last one is going to be a mixed traffic of cars and taxis (work in progress).
 
 
 ## How to use
