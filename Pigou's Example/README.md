@@ -7,7 +7,7 @@ This project contains a collection of examples to simulate Mobility as a Service
 
 ![Integration of DVRP into MATSim](docs/figure-matsim-dvrp.jpg "Integration of DVRP into MATSim")
 
-The main goal of the code in this repository is to provide Pigou's example of, while the actual optimizer code remains in the MATSim contributions. All the examples run on the current MATSim Snapshot, as there are continuous improvement to the functionality. 
+The main goal of the code in this repository is to provide [Pigou's example](https://www.networkpages.nl/equilibrium-congestion-models-pigous-example/) of, while the actual optimizer code remains in the MATSim contributions. All the examples run on the current MATSim Snapshot, as there are continuous improvement to the functionality. 
 
 ## Functionality
 
