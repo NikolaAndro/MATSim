@@ -23,7 +23,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
     - [dtd files](http://www.matsim.org/files/dtd/): Document Type Description files (pgs. 43 & 61 in MATSim book)
     - [Extensions/Contribs](https://github.com/matsim-org/matsim-libs/tree/master/contribs): Extensions which enhance the functionality with additional features (mimght not be up to date)
   - Mixed Traffic
-    -[Mixed traffic Requirements](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/84246576/Mixed+traffic): Required code for a mixed traffic implementation
+    - [Mixed traffic Requirements](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/84246576/Mixed+traffic): Required code for a mixed traffic implementation
   -Multimodal Traffic
     - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal)
     
