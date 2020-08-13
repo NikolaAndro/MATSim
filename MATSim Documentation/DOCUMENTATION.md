@@ -35,6 +35,6 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 
 # Examples
   - [drt_examples - taxi](https://github.com/matsim-org/matsim-maas): Polish city Mielec and German city Cottbus are used
-  - [equil - mixed_traffic](https://github.com/matsim-org/matsim-libs/tree/master/examples/scenarios/equil-mixedTraffic)
+  - [equil - mixed_traffic](https://github.com/matsim-org/matsim-libs/tree/master/examples/scenarios/equil-mixedTraffic): Used cars and bicycles for mixed traffic
   - [different scenarios](https://github.com/matsim-org/matsim-libs/tree/master/examples/scenarios)
   
