@@ -14,4 +14,12 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 
 # MATSim book
   - [MATSim Book](https://www.matsim.org/the-book)
+  
+# Papers
+
+# Useful Links
+
+# Examples
+
+# Other Resources
 
