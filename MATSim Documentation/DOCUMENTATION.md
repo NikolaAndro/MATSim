@@ -4,6 +4,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 
 # Table of Contents
 - MATSim book & Tutorials
+- Vizualisation Tools
 - Papers
   - MATSim in general
   - Multimodal and Mixed Networks
@@ -15,7 +16,9 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 # MATSim book & Tutorials
   - [MATSim Book](https://www.matsim.org/the-book)
   - [MATSim Tutorial](https://www.simunto.com/matsim/tutorials/eifer2019/)
-  
+# Visualization Tools
+  - [Via](https://www.simunto.com/via/)
+  - OTFVis
 # Papers
 
 # Useful Links
