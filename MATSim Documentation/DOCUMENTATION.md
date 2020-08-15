@@ -37,8 +37,8 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - Mixed Traffic
     - [Mixed traffic Requirements](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/84246576/Mixed+traffic): Required code for a mixed traffic implementation
     - [DynAgent class](https://www.matsim.org/apidocs/dvrp/12.0/org/matsim/contrib/dynagent/package-summary.html): Class used for dynamic agents
-  -Multimodal Traffic
-    - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal)
+  - Multimodal Traffic
+    - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal): This contrib enables multi-modal simulation. For a quickstart, confer to org.matsim.contrib.multimodal.RunMultimodalExample.
     
 # Other Resources
   - [Maven Repository](https://mvnrepository.com/artifact/org.matsim/matsim-examples/12.0-2019w45-SBB): Dependency for MATSim Examples
@@ -53,4 +53,8 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [equil - mixed_traffic](https://github.com/matsim-org/matsim-libs/tree/master/examples/scenarios/equil-mixedTraffic): Used cars and bicycles for mixed traffic
   - [different scenarios](https://github.com/matsim-org/matsim-libs/tree/master/examples/scenarios)
   - [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples): Kai Nagel's Examples
+  - [multimdoal_config](https://github.com/matsim-org/matsim-libs/blob/master/contribs/multimodal/src/test/resources/test/input/org/matsim/contrib/multimodal/MultiModalControlerListenerTest/config_berlin_multimodal.xml)
+  - [Mixed traffic config](https://github.com/matsim-org/matsim-libs/blob/master/examples/scenarios/equil-mixedTraffic/config-with-mode-vehicles.xml)
+  - [Creating Taxis in code example](https://github.com/matsim-org/matsim-libs/blob/master/contribs/av/src/main/java/org/matsim/contrib/av/robotaxi/vehicles/CreateTaxiVehicles.java)
+  
   
