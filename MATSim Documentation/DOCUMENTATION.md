@@ -7,7 +7,8 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 - Vizualisation Tools
 - Papers
   - MATSim in general
-  - Multimodal and Mixed Networks
+  - Mixed Traffic
+  - Multimodal Traffic
   - Dispatcher
 - Useful Links
 - Examples
