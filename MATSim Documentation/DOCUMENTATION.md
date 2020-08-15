@@ -25,7 +25,16 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [Dynamic Ride Sharing Implementation and Analysis in MATSim](https://transp-or.epfl.ch/heart/2017/abstracts/hEART2017_paper_130.pdf)
   - [Model Predictive Control of Ride-sharing Autonomous Mobility-on-Demand Systems](http://asl.stanford.edu/wp-content/papercite-data/pdf/Tsao.ea.ICRA19.pdf)
   - [Routing autonomous vehicles in congested transportation networks: structural properties and coordination algorithms](http://asl.stanford.edu/wp-content/papercite-data/pdf/Rossi.Zhang.Hindy.Pavone.AURO17.pdf)
-  
+  - [Simulation and dynamic optimization of taxi services in MATSim](https://pdfs.semanticscholar.org/92df/69a3da030f1b9b1ecd16a032b28d014ab755.pdf)
+  - [Dynamic ride sharing implementation and analysis in MATSim](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/183727/ab1285.pdf)
+  - [Matching algorithm for improving ride-sharing by incorporating route splits and social factors](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229674)
+  - [Order Dispatch in Price-aware Ridesharing](http://www.vldb.org/pvldb/vol11/p853-zheng.pdf)
+  - [DeepPool: Distributed Model-free Algorithm for Ride-sharing using Deep Reinforcement Learning](https://arxiv.org/pdf/1903.03882.pdf)
+  - [A Reinforcement Learning Based Algorithm for Multi-hop Ride-sharing: Model-free Approach](https://ml4ad.github.io/files/papers/A%20Reinforcement%20Learning%20Based%20Algorithm%20for%20Multi-hop%20Ride-sharing:%20Model-free%20Approach.pdf)
+  - [Dynamic Trip-Vehicle Dispatch with Scheduled and On-Demand Requests](http://auai.org/uai2019/proceedings/papers/78.pdf)
+  - [Design and Modeling of Real-Time Shared-Taxi Dispatch Algorithms](https://www.researchgate.net/publication/261216476_Design_and_Modeling_of_Real-Time_Shared-Taxi_Dispatch_Algorithms)
+  - [A dynamic ridesharing dispatch and idle vehicle repositioning strategy with integrated transit transfers](https://www.sciencedirect.com/science/article/pii/S1366554518314790)
+
 # Useful Links
   - General
     - [dtd files](http://www.matsim.org/files/dtd/): Document Type Description files (pgs. 43 & 61 in MATSim book)
