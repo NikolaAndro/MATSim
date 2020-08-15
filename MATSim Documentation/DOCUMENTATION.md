@@ -43,6 +43,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [Maven Repository](https://mvnrepository.com/artifact/org.matsim/matsim-examples/12.0-2019w45-SBB): Dependency for MATSim Examples
   - [Jankins Repository](http://ci.matsim.org:8080/): Upstream and Downstream Projects
   - [MATSim Documentation](https://www.matsim.org/gallery/): Link to the MATSim Website documentation
+  - [Converter to .gz file](https://online-converting.com/archives/convert-to-gzip/)
 
 # Examples
   - [Get Started Example](https://github.com/matsim-org/matsim-example-project): An example how to get started with your own project, including a complete pom.xml
