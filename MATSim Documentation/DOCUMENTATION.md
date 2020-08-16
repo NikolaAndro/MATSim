@@ -32,7 +32,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [DeepPool: Distributed Model-free Algorithm for Ride-sharing using Deep Reinforcement Learning](https://arxiv.org/pdf/1903.03882.pdf)
   - [A Reinforcement Learning Based Algorithm for Multi-hop Ride-sharing: Model-free Approach](https://ml4ad.github.io/files/papers/A%20Reinforcement%20Learning%20Based%20Algorithm%20for%20Multi-hop%20Ride-sharing:%20Model-free%20Approach.pdf)
   - [Dynamic Trip-Vehicle Dispatch with Scheduled and On-Demand Requests](http://auai.org/uai2019/proceedings/papers/78.pdf)
-  - [Design and Modeling of Real-Time Shared-Taxi Dispatch Algorithms](https://www.researchgate.net/publication/261216476_Design_and_Modeling_of_Real-Time_Shared-Taxi_Dispatch_Algorithms)
+  - [Design and Modeling of Real-Time Shared-Taxi Dispatch Algorithms](https://pdfs.semanticscholar.org/65a1/9bf678e034a9987a5ba9b17c1561afa0c7b8.pdf)
   - [A dynamic ridesharing dispatch and idle vehicle repositioning strategy with integrated transit transfers](https://www.sciencedirect.com/science/article/pii/S1366554518314790)
 
 # Useful Links
