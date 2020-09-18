@@ -1,4 +1,4 @@
-# MATSim(Multi-Agent Transport Simulator)
+# MATSim(Multi-Agent Transport Simulation)
 
 This repository contains MATSim documentation and MATSim examples.
 
