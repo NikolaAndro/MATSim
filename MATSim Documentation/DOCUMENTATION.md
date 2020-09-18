@@ -64,6 +64,9 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples): Kai Nagel's Examples
   - [multimdoal_config](https://github.com/matsim-org/matsim-libs/blob/master/contribs/multimodal/src/test/resources/test/input/org/matsim/contrib/multimodal/MultiModalControlerListenerTest/config_berlin_multimodal.xml)
   - [Mixed traffic config](https://github.com/matsim-org/matsim-libs/blob/master/examples/scenarios/equil-mixedTraffic/config-with-mode-vehicles.xml)
-  - [Creating Taxis in code example](https://github.com/matsim-org/matsim-libs/blob/master/contribs/av/src/main/java/org/matsim/contrib/av/robotaxi/vehicles/CreateTaxiVehicles.java)
+  - [Creating Taxis in code example](https://github.com/matsim-org/matsim-libs/blob/master/contribs/av/src/main/java/org/matsim/contrib/av/robotaxi/vehicles/CreateTaxiVehicles.java
+  
+#YouTube links
+  - [MATSim Singapore](https://www.youtube.com/watch?v=_N6Z1_yWQf4)
   
   
