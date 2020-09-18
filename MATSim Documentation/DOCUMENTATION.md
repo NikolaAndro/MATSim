@@ -65,7 +65,11 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [multimdoal_config](https://github.com/matsim-org/matsim-libs/blob/master/contribs/multimodal/src/test/resources/test/input/org/matsim/contrib/multimodal/MultiModalControlerListenerTest/config_berlin_multimodal.xml)
   - [Mixed traffic config](https://github.com/matsim-org/matsim-libs/blob/master/examples/scenarios/equil-mixedTraffic/config-with-mode-vehicles.xml)
   - [Creating Taxis in code example](https://github.com/matsim-org/matsim-libs/blob/master/contribs/av/src/main/java/org/matsim/contrib/av/robotaxi/vehicles/CreateTaxiVehicles.java
-  
+
+# Data Sets
+  - [UCI Machine Learning](https://archive.ics.uci.edu/ml/index.php)
+  - [NYC Open Data](https://opendata.cityofnewyork.us/)
+  - [Chicago Data Portal](https://data.cityofchicago.org/)
 # YouTube links
   - [MATSim Singapore](https://www.youtube.com/watch?v=_N6Z1_yWQf4)
   
