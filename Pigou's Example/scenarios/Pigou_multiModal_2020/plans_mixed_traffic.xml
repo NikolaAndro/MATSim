@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v6.dtd">
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v5.dtd"> 
 
-<!--<?xml version="1.0" ?>
-<!DOCTYPE plans SYSTEM "http://www.matsim.org/files/dtd/plans_v4.dtd">-->
+<!--
+<?xml version="1.0" ?>
+<!DOCTYPE plans SYSTEM "http://www.matsim.org/files/dtd/plans_v4.dtd"> -->
+
 
 <!--
 ************************************************************************ 
 *	Programmer: Nikola Andric										   *
 *	Email: dzonikika@yahoo.com  									   *
-*	Last Editted: 7/26/2020 	 									   *
+*	Last Editted: 10/4/2020 	 									   *
 *	Description: This file contains the plans of the 10 taxi vehicles  *
 *				for the Pigou's example.							   *
 ************************************************************************
@@ -21,11 +23,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:08:00" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:08:00" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14 </route>	
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -33,11 +35,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:08:30" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:08:30" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14 </route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -45,11 +47,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:09:00" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:09:00" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14 </route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -57,11 +59,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:09:30" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:09:30" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14</route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -69,11 +71,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:10:00" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:10:00" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1  5 14 </route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -81,11 +83,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:10:30" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:10:30" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14 </route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -93,11 +95,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:11:00" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:11:00" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route> 1 5 14 </route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -105,11 +107,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:11:30" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:11:30" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14 </route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -117,11 +119,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:12:00" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:12:00" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14</route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -129,11 +131,11 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="h" x="-15000" y="0" link="1" end_time="06:12:30" />
+			<act type="h" x="-15000" y="0" link="1" end_time="06:12:30" />
 			<leg mode="car">
-				<route> 2 3 5 </route>
+				<route>1 5 14</route>
 			</leg>
-			<activity type="h" x="0" y="0" link="20" />
+			<act type="h" x="0" y="0" link="20" />
 		</plan>
 	</person>
 
@@ -143,110 +145,110 @@
 		<plan selected="yes">
 		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
 			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:08:00" />
+			<act type="dummy" link="1" end_time="06:08:00" />
 			<leg mode="taxi">
-				<route type="generic" trav_time="undefined" distance="NaN"></route>
+				<route type="generic" start_link="1" end_link="20" trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000012">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:08:30" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:08:30" />
 			<leg mode="taxi">
 				<route type="generic" trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000013">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:09:00" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:09:00" />
 			<leg mode="taxi">
 				<route type="generic" trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000014">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:09:30" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:09:30" />
 			<leg mode="taxi">
 				<route type="generic"  trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000015">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:10:00" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:10:00" />
 			<leg mode="taxi">
 				<route type="generic"  trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000016">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:10:30" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:10:30" />
 			<leg mode="taxi">
 				<route type="generic"  trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000017">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:11:00" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:11:00" />
 			<leg mode="taxi">
 				<route type="generic"  trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000018">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:11:30" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:11:30" />
 			<leg mode="taxi">
 				<route type="generic"  trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000019">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:12:00" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:12:00" />
 			<leg mode="taxi">
 				<route type="generic"  trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
 
 	<person id="0000020">
 		<plan selected="yes">
-			<activity type="dummy" x="-15000" y="0" link="1" end_time="06:12:30" />
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:12:30" />
 			<leg mode="taxi">
 				<route type="generic" trav_time="undefined" distance="NaN"></route>
 			</leg>
-			<activity type="dummy" x="0" y="0" link="20" />
+			<act type="dummy" x="0" y="0" link="20" />
 		</plan>
 
 	</person>
