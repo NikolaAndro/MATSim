@@ -7,7 +7,7 @@ This project contains a collection of examples to simulate Mobility as a Service
 
 ![Integration of DVRP into MATSim](docs/figure-matsim-dvrp.jpg "Integration of DVRP into MATSim")
 
-The main goal of the code in this repository is to provide examples of different usage scenarios for MaaS / AV services and make them easy to access in one single place, while the actual optimizer code remains in the MATSim contributions. All the examples run on the current MATSim Snapshot, as there are continuous improvement to the functionality. 
+The main goal of the code in this repository is to provide [Pigou's example](https://www.networkpages.nl/equilibrium-congestion-models-pigous-example/) of, while the actual optimizer code remains in the MATSim contributions. All the examples run on the current MATSim Snapshot, as there are continuous improvement to the functionality. 
 
 ## Functionality
 
@@ -49,7 +49,7 @@ With DVRP being the common base to all the modules described here, there is some
 
 ## Test scenarios
 
-The [scenarios](scenarios/) folder contains several test scenarios. These are roughly derived from existing MATSim scenarios, but often depict only the excerpt with relevance to MaaS of the scenario. 
+The [scenarios](scenarios/) folder contains several test scenarios. These are roughly derived from Mielec Example. There is an example with cars only, another one with taxis only, and the last one is going to be a mixed traffic of cars and taxis (work in progress).
 
 
 ## How to use
