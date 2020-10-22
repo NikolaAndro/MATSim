@@ -6,10 +6,10 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
 - MATSim book & Tutorials
 - Vizualisation Tools
 - Papers
-  - MATSim in general
-  - Mixed Traffic
-  - Multimodal Traffic
-  - Dispatcher
+  - MATSim general
+  - Ride-sharing Algorithms and Analysis
+  - Dispatch
+  - Multi-modal Network
 - Useful Links
   - General
   - Mixed Traffic
