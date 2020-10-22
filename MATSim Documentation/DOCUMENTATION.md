@@ -48,18 +48,18 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [Multimodal Network](https://www.semanticscholar.org/paper/A-Multi-Modal-Network-for-MATSim-Boesch-Ciari/cc450d395aaf535f71f20bac07db7ef2c027b785)
   
 # Useful Links
-  - General
-    - [dtd files](http://www.matsim.org/files/dtd/): Document Type Description files (pgs. 43 & 61 in MATSim book)
-    - [Extensions/Contribs](https://github.com/matsim-org/matsim-libs/tree/master/contribs): Extensions which enhance the functionality with additional features (mimght not be up to date)
-    - [Extensions Link 2](https://github.com/matsim-org/matsim-libs/blob/master/contribs/README.md)
-    - [Questions](https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue): Here you can look up your problem and if not found, post a question
-    - [Issue Tracker](https://matsim.atlassian.net/projects/MATSIM/issues/MATSIM-174?filter=allopenissues&orderby=priority%20DESC)
-    - [Releases and release candidates](https://bintray.com/matsim/matsim/): Includes information how to use resources and release candidates by Maven, Gradle, or similar, also for contribs
-  - Mixed Traffic
-    - [Mixed traffic Requirements](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/84246576/Mixed+traffic): Required code for a mixed traffic implementation
-    - [DynAgent class](https://www.matsim.org/apidocs/dvrp/12.0/org/matsim/contrib/dynagent/package-summary.html): Class used for dynamic agents
-  - Multimodal Traffic
-    - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal): This contrib enables multi-modal simulation. For a quickstart, confer to org.matsim.contrib.multimodal.RunMultimodalExample.
+  ### General
+  - [dtd files](http://www.matsim.org/files/dtd/): Document Type Description files (pgs. 43 & 61 in MATSim book)
+  - [Extensions/Contribs](https://github.com/matsim-org/matsim-libs/tree/master/contribs): Extensions which enhance the functionality with additional features (mimght not be up to date)
+  - [Extensions Link 2](https://github.com/matsim-org/matsim-libs/blob/master/contribs/README.md)
+  - [Questions](https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue): Here you can look up your problem and if not found, post a question
+  - [Issue Tracker](https://matsim.atlassian.net/projects/MATSIM/issues/MATSIM-174?filter=allopenissues&orderby=priority%20DESC)
+  - [Releases and release candidates](https://bintray.com/matsim/matsim/): Includes information how to use resources and release candidates by Maven, Gradle, or similar, also for contribs
+  ### Mixed Traffic
+  - [Mixed traffic Requirements](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/84246576/Mixed+traffic): Required code for a mixed traffic implementation
+  - [DynAgent class](https://www.matsim.org/apidocs/dvrp/12.0/org/matsim/contrib/dynagent/package-summary.html): Class used for dynamic agents
+  ### Multimodal Traffic
+  - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal): This contrib enables multi-modal simulation. For a quickstart, confer to org.matsim.contrib.multimodal.RunMultimodalExample.
     
 # Other Resources
   - [Maven Repository](https://mvnrepository.com/artifact/org.matsim/matsim-examples/12.0-2019w45-SBB): Dependency for MATSim Examples
