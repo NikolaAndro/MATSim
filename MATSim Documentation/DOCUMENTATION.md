@@ -34,6 +34,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [Dynamic Trip-Vehicle Dispatch with Scheduled and On-Demand Requests](http://auai.org/uai2019/proceedings/papers/78.pdf)
   - [Design and Modeling of Real-Time Shared-Taxi Dispatch Algorithms](https://pdfs.semanticscholar.org/65a1/9bf678e034a9987a5ba9b17c1561afa0c7b8.pdf)
   - [A dynamic ridesharing dispatch and idle vehicle repositioning strategy with integrated transit transfers](https://www.sciencedirect.com/science/article/pii/S1366554518314790)
+  - [Multimodal Network](https://www.semanticscholar.org/paper/A-Multi-Modal-Network-for-MATSim-Boesch-Ciari/cc450d395aaf535f71f20bac07db7ef2c027b785)
 
 # Useful Links
   - General
