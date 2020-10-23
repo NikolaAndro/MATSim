@@ -46,6 +46,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   
   ### Multi-modal Network
   - [Multimodal Network](https://www.semanticscholar.org/paper/A-Multi-Modal-Network-for-MATSim-Boesch-Ciari/cc450d395aaf535f71f20bac07db7ef2c027b785)
+  - [Agent Based Simulation of Autonomous Cars](https://www.semanticscholar.org/paper/Agent-based-simulation-of-autonomous-cars-Boesch-Ciari/b195794c6989933edd7bcc912faeddd573b3cf78)
   
 # Useful Links
   ### General
@@ -60,7 +61,8 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [DynAgent class](https://www.matsim.org/apidocs/dvrp/12.0/org/matsim/contrib/dynagent/package-summary.html): Class used for dynamic agents
   ### Multimodal Traffic
   - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal): This contrib enables multi-modal simulation. For a quickstart, confer to org.matsim.contrib.multimodal.RunMultimodalExample.
-    
+  
+  
 # Other Resources
   - [Maven Repository](https://mvnrepository.com/artifact/org.matsim/matsim-examples/12.0-2019w45-SBB): Dependency for MATSim Examples
   - [Jankins Repository](http://ci.matsim.org:8080/): Upstream and Downstream Projects
