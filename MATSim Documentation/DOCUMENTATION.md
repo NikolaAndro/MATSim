@@ -55,10 +55,10 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [Extensions Link 2](https://github.com/matsim-org/matsim-libs/blob/master/contribs/README.md)
   - [Questions](https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue): Here you can look up your problem and if not found, post a question
   - [Issue Tracker](https://matsim.atlassian.net/projects/MATSIM/issues/MATSIM-174?filter=allopenissues&orderby=priority%20DESC)
-  - [Releases and release candidates](https://bintray.com/matsim/matsim/): Includes information how to use resources and release candidates by Maven, Gradle, or similar, also for contribs
+  - [Releases and Release Candidates](https://bintray.com/matsim/matsim/): Includes information how to use resources and release candidates by Maven, Gradle, or similar, also for contribs
   ### Mixed Traffic
   - [Mixed traffic Requirements](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/84246576/Mixed+traffic): Required code for a mixed traffic implementation
-  - [DynAgent class](https://www.matsim.org/apidocs/dvrp/12.0/org/matsim/contrib/dynagent/package-summary.html): Class used for dynamic agents
+  - [DynAgent Class](https://www.matsim.org/apidocs/dvrp/12.0/org/matsim/contrib/dynagent/package-summary.html): Class used for dynamic agents
   ### Multimodal Traffic
   - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal): This contrib enables multi-modal simulation. For a quickstart, confer to org.matsim.contrib.multimodal.RunMultimodalExample.
   
@@ -76,9 +76,9 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [equil - mixed_traffic](https://github.com/matsim-org/matsim-libs/tree/master/examples/scenarios/equil-mixedTraffic): Used cars and bicycles for mixed traffic
   - [different scenarios](https://github.com/matsim-org/matsim-libs/tree/master/examples/scenarios)
   - [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples): Kai Nagel's Examples
-  - [multimdoal_config](https://github.com/matsim-org/matsim-libs/blob/master/contribs/multimodal/src/test/resources/test/input/org/matsim/contrib/multimodal/MultiModalControlerListenerTest/config_berlin_multimodal.xml)
-  - [Mixed traffic config](https://github.com/matsim-org/matsim-libs/blob/master/examples/scenarios/equil-mixedTraffic/config-with-mode-vehicles.xml)
-  - [Creating Taxis in code example](https://github.com/matsim-org/matsim-libs/blob/master/contribs/av/src/main/java/org/matsim/contrib/av/robotaxi/vehicles/CreateTaxiVehicles.java)
+  - [Multimdoal_Config](https://github.com/matsim-org/matsim-libs/blob/master/contribs/multimodal/src/test/resources/test/input/org/matsim/contrib/multimodal/MultiModalControlerListenerTest/config_berlin_multimodal.xml)
+  - [Mixed Traffic Config](https://github.com/matsim-org/matsim-libs/blob/master/examples/scenarios/equil-mixedTraffic/config-with-mode-vehicles.xml)
+  - [Creating Taxis in Code Example](https://github.com/matsim-org/matsim-libs/blob/master/contribs/av/src/main/java/org/matsim/contrib/av/robotaxi/vehicles/CreateTaxiVehicles.java)
 
 # Data Sets
   - [UCI Machine Learning](https://archive.ics.uci.edu/ml/index.php)
