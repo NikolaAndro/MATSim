@@ -43,7 +43,7 @@ import org.matsim.vis.otfvis.OTFVisConfigGroup;
  */
 
 public class RunTaxiExample {
-	public static final String CONFIG_FILE_RULEBASED = "scenarios/Pigou_multiModal_2020/mielec_taxi_config_rulebased.xml";
+	public static final String CONFIG_FILE_RULEBASED = "scenarios/Pigou_multiModal_2020/multi_modal_config.xml";
 	//public static final String CONFIG_FILE_ASSIGNMENT = "scenarios/mielec_2014_02/mielec_taxi_config_assignment.xml";
 	
 	private static final Logger log = Logger.getLogger(PopulationReader.class);
