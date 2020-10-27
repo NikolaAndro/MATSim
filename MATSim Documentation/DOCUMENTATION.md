@@ -61,6 +61,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [DynAgent Class](https://www.matsim.org/apidocs/dvrp/12.0/org/matsim/contrib/dynagent/package-summary.html): Class used for dynamic agents
   ### Multimodal Traffic
   - [Extentions for Multimodal Traffic](https://github.com/matsim-org/matsim-libs/tree/master/contribs/multimodal): This contrib enables multi-modal simulation. For a quickstart, confer to org.matsim.contrib.multimodal.RunMultimodalExample.
+  - [Analysis of space allocation strategies between buses and cars with the multimodal MFD](https://www.research-collection.ethz.ch/handle/20.500.11850/100946)
   
   
 # Other Resources
