@@ -49,6 +49,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [Public Transit Route Mapping for Large-Scale Multimodal Networks](https://www.mdpi.com/2220-9964/6/9/268/htm)
   - [Assessing the welfare impacts of Shared Mobility and Mobility as a Service (MaaS)](https://www.sciencedirect.com/science/article/pii/S0965856418311212)
   - [Agent Based Simulation of Autonomous Cars](https://www.semanticscholar.org/paper/Agent-based-simulation-of-autonomous-cars-Boesch-Ciari/b195794c6989933edd7bcc912faeddd573b3cf78)
+  - [Towards a Socially Optimal Multi-Modal Routing Platform](https://arxiv.org/pdf/1802.10140.pdf)
   
 # Useful Links
   ### General
