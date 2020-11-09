@@ -50,6 +50,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [Assessing the welfare impacts of Shared Mobility and Mobility as a Service (MaaS)](https://www.sciencedirect.com/science/article/pii/S0965856418311212)
   - [Agent Based Simulation of Autonomous Cars](https://www.semanticscholar.org/paper/Agent-based-simulation-of-autonomous-cars-Boesch-Ciari/b195794c6989933edd7bcc912faeddd573b3cf78)
   - [Towards a Socially Optimal Multi-Modal Routing Platform](https://arxiv.org/pdf/1802.10140.pdf)
+  - [Mobilytics-Gym: A simulation framework for analyzing urban mobility decision strategies](https://scopelab.ai/files/Samal2019.pdf)
   
 # Useful Links
   ### General
