@@ -1,0 +1,11 @@
+2020-07-27T14:21:11,487  WARN PrepareForSimImpl:222 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon.
+2020-07-27T14:21:11,503  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2020-07-27T14:21:11,526  WARN RandomizingTimeDistanceTravelDisutilityFactory:112 There will be no routing randomness. The randomization of the travel disutility requires the monetary distance rate to be different than zero. Continuing anyway.
+2020-07-27T14:21:11,532  WARN RandomizingTimeDistanceTravelDisutilityFactory:117 There will be no routing randomness. The randomization of the travel disutility requires the travel time cost rate to be different than zero. Continuing anyway.
+2020-07-27T14:21:11,536  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2020-07-27T14:21:11,542  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2020-07-27T14:21:11,722  WARN ObjectAttributesConverter:77 No AttributeConverter found for class java.util.Collections$UnmodifiableMap. Not all attribute values can be converted.
+2020-07-27T14:21:11,849  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2020-07-27T14:21:11,884  WARN EditTrips:111 no TransitStopAgentTracker found in qsim. Replanning of pt/transit legs will not work properly and will likely fail.
+2020-07-27T14:21:11,906  WARN PreplanningEngine:118 registering TripInfo.Provider for mode=taxi
+2020-07-27T14:21:18,396  WARN ObjectAttributesConverter:77 No AttributeConverter found for class java.util.Collections$UnmodifiableMap. Not all attribute values can be converted.
