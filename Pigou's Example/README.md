@@ -1,4 +1,4 @@
-![100,000 robo-taxis driving in Berlin (10% sample)](https://www.researchgate.net/profile/Thomas_Pradeau/publication/281985026/figure/fig1/AS:566762442891264@1512138104918/The-example-of-Pigou.png "100,000 robo-taxis driving in Berlin (10% sample)")
+![100,000 robo-taxis driving in Berlin (10% sample)](https://www.researchgate.net/profile/Thomas_Pradeau/publication/281985026/figure/fig1/AS:566762442891264@1512138104918/The-example-of-Pigou.png "Pigou's Example")
 
 # MATSim – Mobility as a Service
 
