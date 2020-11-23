@@ -1,2 +1,0 @@
-Iteration	stageActivity_travel	stageActivity_wait	taxi_travel	taxi_wait
-0	0.0	0.0	1.2277777777777779	0.005555555555555556
