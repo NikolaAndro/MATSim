@@ -23,3 +23,10 @@ Pegou Example is being implemented in order to test a mixed network of ride-shar
 4. Program is ready to be executed.
 
 5. For visualization of the results, I used software called Via. Via requires a licence that can be gotten for free after providing the name of your institution that you are using Via for. Via software, as well as its manual and sample data can be downloaded [here](https://www.simunto.com/via/download).
+
+6. Once you download and run Via, you will be asked to provide the licence. If you have not gotten one yet, click the button in the bottom right corner "Get a licence online..." that will take you to a website to get the licence.
+    - NOTE: When entering Organization name when filling out necessary information, I suggest not having '&' in the name of the organization since it will stop you from receiving the licence. 
+
+7. The licence will be sent to your email address. Download it and select it after clicking "Add licence..." button on Via. Then, click "Close."
+
+8. Via will open.
