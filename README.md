@@ -13,9 +13,9 @@ Pegou Example is being implemented in order to test a mixed network of ride-shar
 2. MATSim has its own GUI. However, it is not necessary and I, personally, did not use it in my research. MATSim code can be ran in Eclipse and it will produce necessary output files. 
 
     - To start, you can clone any of the MATSim repositories online to a local repository where you will store MATSim examples. For my research, I cloned the second of the two repositories below. 
-        --Suggested repositories: 
-          ---[Kai Nagel's example repo](https://github.com/matsim-org/matsim-example-project)
-          ---[Michal Maciejewski' repo](https://github.com/matsim-org/matsim-maas)
+        -- Suggested repositories: 
+          --- [Kai Nagel's example repo](https://github.com/matsim-org/matsim-example-project)
+          --- [Michal Maciejewski' repo](https://github.com/matsim-org/matsim-maas)
 
 3. Import as maven project into Eclipse IDE (or other if you prefer). Maven will sort out the dependencies. No need to download the MATSim main repository. Sources are available.
     - Eclipse: Import … –> … as maven project –> browse to dir –> accept, accept, accept
