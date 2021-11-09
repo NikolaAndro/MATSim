@@ -5,13 +5,14 @@
 ************************************************************************ 
 *	Programmer: Nikola Andric										   *
 *	Email: dzonikika@yahoo.com  									   *
-*	Last Editted: 7/26/2020 	 									   *
+*	Last Editted: 11/08/2021 	 									   *
 *	Description: This file contains the plans of the 10 taxu vehicles  *
 *				for the Pigou's example.							   *
 ************************************************************************
 -->
 
 <network name="pigou test network">
+	<!-- List of nodes that are necessary for Pigou example -->
    <nodes>
       <node id="1" x="-15000.000001" y="0"/>
       <node id="2" x="-15000" y="0"/>
@@ -21,8 +22,11 @@
       <node id="6" x="0.000001" y="0"/>
    </nodes>
    <links capperiod="01:00:00">
-	  <!-- link 1 is the starting link and taxis will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
-			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations
+	  <!-- link 1 is the starting link and taxis will start the trip from the end of the link.
+ 				This is set up this way because the program would not run otherwise. However, the length of
+				the link 1 and link 20 (length: 0.000001) is so small that they are neglible and they will not affect calculations.
+				This enables us to visualize this example such that vehicles start at the node 2
+ 				and finish their trip at node 5. will go until the end of the link 20. 
 			
 			Highway road consider the node 2,4,5 whose speed limit is 57.78.
 			Regular road consider the node 2,3,5 whose spped limit is 27.78.
