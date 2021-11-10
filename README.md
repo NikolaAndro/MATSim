@@ -8,7 +8,7 @@ Pegou Example is being implemented in order to test a mixed network of ride-shar
 
 # Starting With Matsim
 
-1. MATSim is a software written in Java.Therefore, you will need to install [Java SE (Standard Edition)](https://www.oracle.com/java/technologies/javase-downloads.html#JDK15). Currently, Java SE 11 is compatible with MATSim. Then, you will want to have Eclipse IDE (, as the most recommending IDE, for executing MATSim code. 
+1. MATSim is a software written in Java.Therefore, you will need to install [Java SE (Standard Edition)](https://www.oracle.com/java/technologies/javase-downloads.html#JDK15). Currently, Java SE 11 is compatible with MATSim. Then, you will want to have Eclipse IDE (as the most recommending IDE, for executing MATSim code). 
 
 2. MATSim has its own GUI. However, it is not necessary and I, personally, did not use it in my research. MATSim code can be ran in Eclipse and it will produce necessary output files. 
 
