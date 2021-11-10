@@ -1,0 +1,12 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+DrtBusStop---DrtBusStop	5542	1845	139	14	0	0	0	0	0	0	0	0	0
+DrtStay---DrtBusStop	350	66	14	1	0	0	0	0	0	0	0	0	0
+drt interaction---drt interaction	107	296	398	616	1196	1238	917	354	70	7	1	0	0
+drt interaction---home	1758	333	62	47	13	0	10	2	15	11	0	0	1
+drt interaction---work	2244	549	51	36	13	5	10	4	15	21	0	0	0
+home---drt interaction	1758	333	62	47	13	0	10	2	15	11	0	0	1
+home---work	4	2	0	0	0	0	1	0	0	0	0	0	0
+work---drt interaction	2244	549	51	36	13	5	10	4	15	21	0	0	0
+work---home	4	2	0	0	0	0	1	0	0	0	0	0	0
+
+average trip duration: 508.8368030527878 seconds = 00:08:28

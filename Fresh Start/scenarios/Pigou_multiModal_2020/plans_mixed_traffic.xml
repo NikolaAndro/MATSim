@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_mixed_traffic.xml
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v5.dtd"> 
+
+<!--
+<?xml version="1.0" ?>
+<!DOCTYPE plans SYSTEM "http://www.matsim.org/files/dtd/plans_v4.dtd"> -->
+=======
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v5.dtd">
+>>>>>>> f1a8f61098ad270e960f0f70388cf8ee3a731c05:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_only_taxi_4.0.xml
+
+
+<!--
+************************************************************************ 
+*	Programmer: Nikola Andric										   *
+*	Email: dzonikika@yahoo.com  									   *
+<<<<<<< HEAD:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_mixed_traffic.xml
+*	Last Editted: 10/4/2020 	 									   *
+=======
+*	Last Editted: 8/31/2020 	 									   *
+>>>>>>> f1a8f61098ad270e960f0f70388cf8ee3a731c05:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_only_taxi_4.0.xml
+*	Description: This file contains the plans of the 10 taxi vehicles  *
+*				for the Pigou's example.							   *
+************************************************************************
+-->
+
+<!-- =============================================================================REGULAR CARS=========================================================================-->
+<!-- <plans xml:lang="de-CH"> -->
+<population>
+	<person id="0000001">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:08:00" />
+			<leg mode="car">
+<<<<<<< HEAD:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_mixed_traffic.xml
+				<route>1 5 14 </route>	
+=======
+				<route> 2 3 5 </route>	
+>>>>>>> f1a8f61098ad270e960f0f70388cf8ee3a731c05:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_only_taxi_4.0.xml
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000002">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:08:30" />
+			<leg mode="car">
+				<route>1 5 14 </route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000003">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:09:00" />
+			<leg mode="car">
+				<route>1 5 14 </route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000004">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:09:30" />
+			<leg mode="car">
+				<route>1 5 14</route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000005">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:10:00" />
+			<leg mode="car">
+				<route>1  5 14 </route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000006">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:10:30" />
+			<leg mode="car">
+				<route>1 5 14 </route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000007">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:11:00" />
+			<leg mode="car">
+				<route> 1 5 14 </route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000008">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:11:30" />
+			<leg mode="car">
+				<route>1 5 14 </route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000009">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:12:00" />
+			<leg mode="car">
+				<route>1 5 14</route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+	<person id="0000010">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+			<act type="h" x="-15000" y="0" link="1" end_time="06:12:30" />
+			<leg mode="car">
+				<route>1 5 14</route>
+			</leg>
+			<act type="h" x="0" y="0" link="20" />
+		</plan>
+	</person>
+
+<!--======================================================================================TAXIS==============================================================================-->
+
+	<person id="0000011">
+		<plan selected="yes">
+		<!-- link 1 is the starting link and taxi will start the trip from the end of the link. It will go until the end of the link 20. For that reason and for estetics
+			I set the length of the links 1 and 20 to be extremly small in order not to affect the calculations-->
+<<<<<<< HEAD:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_mixed_traffic.xml
+			<act type="dummy" link="1" end_time="06:08:00" />
+=======
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:08:00" />
+>>>>>>> f1a8f61098ad270e960f0f70388cf8ee3a731c05:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_only_taxi_4.0.xml
+			<leg mode="taxi">
+				<route type="generic" start_link="1" end_link="20" trav_time="undefined" distance="NaN"></route>
+			</leg>
+<<<<<<< HEAD:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_mixed_traffic.xml
+			<act type="dummy" link="20" />
+=======
+			<act type="dummy" x="0" y="0" link="20" />
+>>>>>>> f1a8f61098ad270e960f0f70388cf8ee3a731c05:Pigou's Example/scenarios/Pigou_multiModal_2020/plans_only_taxi_4.0.xml
+		</plan>
+
+	</person>
+
+	<person id="0000012">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:08:30" />
+			<leg mode="taxi">
+				<route type="generic" trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000013">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:09:00" />
+			<leg mode="taxi">
+				<route type="generic" trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000014">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:09:30" />
+			<leg mode="taxi">
+				<route type="generic"  trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000015">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:10:00" />
+			<leg mode="taxi">
+				<route type="generic"  trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000016">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:10:30" />
+			<leg mode="taxi">
+				<route type="generic"  trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000017">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:11:00" />
+			<leg mode="taxi">
+				<route type="generic"  trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000018">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:11:30" />
+			<leg mode="taxi">
+				<route type="generic"  trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000019">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:12:00" />
+			<leg mode="taxi">
+				<route type="generic"  trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+
+	<person id="0000020">
+		<plan selected="yes">
+			<act type="dummy" x="-15000" y="0" link="1" end_time="06:12:30" />
+			<leg mode="taxi">
+				<route type="generic" trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" x="0" y="0" link="20" />
+		</plan>
+
+	</person>
+</population>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<!--
+************************************************************************ 
+*	Programmer: Nikola Andric										   *
+*	Email: nikolazeljkoandric@gmail.com  							   *
+*	Last Editted: 11/08/2021 	 									   *
+*	Description: This file contains the vehicle definitions as well as *
+*		  			initialization of regular cars that are going to   *
+*					appear on the network.							   *
+************************************************************************
+-->
+
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v1.0.xsd">
+    <vehicleType id="car">
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="16.67"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType>
+    
+    <vehicle id="1" type="car"/>
+	<vehicle id="2" type="car"/>
+	<vehicle id="3" type="car"/>
+	<vehicle id="4" type="car"/>
+	<vehicle id="5" type="car"/>
+
+</vehicleDefinitions>
