@@ -1,2 +1,2 @@
 departureTime;personId;vehicleId;fromLinkId;fromX;fromY;toLinkId;toX;toY;waitTime;arrivalTime;travelTime;travelDistance_m;directTravelDistance_m;fareForLeg
-24793.0;0000175;drt_veh_1_1;1;0;4500;8;14500;0;61.0;26745.0;1891.0;31500;31500;-8.69
+24793.0;0000175;drt_veh_1_1;1;0;4500;8;14500;0;332.0;27016.0;1891.0;31500;31500;-8.69

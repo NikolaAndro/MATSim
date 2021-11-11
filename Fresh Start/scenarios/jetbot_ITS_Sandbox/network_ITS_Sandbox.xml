@@ -2,6 +2,7 @@
 <!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v1.dtd">
 <network>
 	<nodes>
+<node id="0" x="-0.00001" y="-0.00001"/>
 <node id="1" x="0" y="0"/>
 <node id="2" x="0" y="4500"/>
 <node id="3" x="0" y="9000"/>
@@ -27,11 +28,9 @@
 <node id="23" x="4000" y="4500"/>
 <node id="24" x="3000" y="0"/>
 </nodes>
-<!--
-<node id="25" x="2536.7609" y="-2894.4909"/>
-<node id="26" x="2699.6788" y="-3083.5346"/>
-<node id="27" x="2761.3702" y="-3039.9877"/> -->
+
 <links>
+<link id="0" from="0" to="1" length="0.00001" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
 <link id="1" from="1" to="2" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
 <link id="2" from="2" to="3" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
 <link id="3" from="3" to="4" length="4000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
