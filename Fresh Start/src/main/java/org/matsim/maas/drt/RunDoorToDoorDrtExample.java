@@ -39,7 +39,8 @@ public class RunDoorToDoorDrtExample {
 	private static final String COTTBUS_DOOR2DOOR_CONFIG = "scenarios/cottbus/drtconfig_door2door.xml";
 
 	@SuppressWarnings("unused")
-	private static final String MIELEC_CONFIG = "scenarios/mielec_2014_02/mielec_drt_config.xml";
+	private static final String MIELEC_CONFIG = "scenarios/jetbot_ITS_Sandbox/jetbot_config.xml";
+	//private static final String MIELEC_CONFIG = "scenarios/mielec_2014_02/mielec_drt_config.xml";
 
 	public static void run(Config config, boolean otfvis) {
 		//Creates a MATSim Controler and preloads all DRT related packages
@@ -50,7 +51,7 @@ public class RunDoorToDoorDrtExample {
 	}
 
 	public static void main(String[] args) {
-		Config config = ConfigUtils.loadConfig(COTTBUS_DOOR2DOOR_CONFIG, new MultiModeDrtConfigGroup(),
+		Config config = ConfigUtils.loadConfig(MIELEC_CONFIG, new MultiModeDrtConfigGroup(),
 				new DvrpConfigGroup(), new OTFVisConfigGroup());
 		run(config, false);
 	}

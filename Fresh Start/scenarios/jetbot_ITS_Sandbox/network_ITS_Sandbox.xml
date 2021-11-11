@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v1.dtd">
+<network>
+	<nodes>
+<node id="1" x="0" y="0"/>
+<node id="2" x="0" y="4500"/>
+<node id="3" x="0" y="9000"/>
+<node id="4" x="4000" y="9000"/>
+<node id="5" x="7500" y="9000"/>
+<node id="6" x="11000" y="9000"/>
+<node id="7" x="14500" y="9000"/>
+<node id="8" x="14500" y="4500"/>
+<node id="9" x="14500" y="0"/>
+<node id="10" x="12000" y="0"/>
+<node id="11" x="11000" y="1000"/>
+<node id="12" x="11000" y="4500"/>
+<node id="13" x="9000" y="4500"/>
+<node id="14" x="9000" y="2500"/>
+<node id="15" x="9000" y="1000"/>
+<node id="16" x="7500" y="1000"/>
+<node id="17" x="7500" y="2500"/>
+<node id="18" x="7500" y="4500"/>
+<node id="19" x="6000" y="4500"/>
+<node id="20" x="6000" y="2500"/>
+<node id="21" x="6000" y="1000"/>
+<node id="22" x="4000" y="1000"/>
+<node id="23" x="4000" y="4500"/>
+<node id="24" x="3000" y="0"/>
+</nodes>
+<!--
+<node id="25" x="2536.7609" y="-2894.4909"/>
+<node id="26" x="2699.6788" y="-3083.5346"/>
+<node id="27" x="2761.3702" y="-3039.9877"/> -->
+<links>
+<link id="1" from="1" to="2" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="2" from="2" to="3" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="3" from="3" to="4" length="4000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="4" from="4" to="5" length="5000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="5" from="5" to="6" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="6" from="6" to="7" length="5000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="7" from="7" to="8" length="4000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="8" from="8" to="9" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="9" from="9" to="10" length="300" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="10" from="10" to="11" length="1410" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="11" from="11" to="12" length="3500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="12" from="12" to="8" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="13" from="12" to="6" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="14" from="12" to="13" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="15" from="13" to="18" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="16" from="18" to="5" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="17" from="18" to="19" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="18" from="19" to="23" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="19" from="23" to="4" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="20" from="23" to="2" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="21" from="23" to="22" length="3500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="22" from="22" to="24" length="1410" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="23" from="24" to="1" length="3000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="24" from="22" to="21" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="25" from="21" to="20" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="26" from="20" to="19" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="27" from="20" to="17" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="28" from="17" to="18" length="2250" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="29" from="17" to="14" length="2250" freespeed="9.72222222222222" capacity="300" permlanes="1"/>
+<link id="30" from="14" to="13" length="2250" freespeed="9.72222222222222" capacity="300" permlanes="1"/>
+<link id="31" from="14" to="15" length="2250" freespeed="9.72222222222222" capacity="300" permlanes="1"/>
+<link id="32" from="15" to="11" length="1000" freespeed="9.72222222222222" capacity="300" permlanes="1"/>
+<link id="33" from="15" to="16" length="2250" freespeed="9.72222222222222" capacity="300" permlanes="1"/>
+<link id="34" from="16" to="17" length="2250" freespeed="9.72222222222222" capacity="300" permlanes="1"/>
+<link id="35" from="16" to="21" length="2250" freespeed="9.72222222222222" capacity="300" permlanes="1"/>
+</links>
+</network>

@@ -1,6 +1,0 @@
-Iteration	stageActivity_travel	stageActivity_wait	taxi_travel	taxi_wait	walk_travel	walk_wait
-0	0	0	12169	4489	18178	0
-1	0	0	12079	3790	18178	0
-2	0	0	12024	3627	18178	0
-3	0	0	11978	3568	18178	0
-4	0	0	11987	3484	18178	0
