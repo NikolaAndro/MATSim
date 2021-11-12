@@ -60,7 +60,7 @@
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="test/output/mielec_drt"/>
+		<param name="outputDirectory" value="test/output/jetbot_ITS_Sandbox"/>
 		<param name="overwriteFiles" value="deleteDirectoryIfExists"/>
 		<param name="firstIteration" value="0"/>
 		<param name="lastIteration" value="0"/>
@@ -78,4 +78,9 @@
 		<param name="ModuleProbability_1" value="1.0"/>
 		<param name="Module_1" value="KeepLastSelected"/>
 	</module>
+
+	<!-- Adding coordinate system-->
+	<module name= "global">
+		<param name= "coordinateSystem" value= "EPSG :32608"/>
+	</module >
 </config>

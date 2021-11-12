@@ -3,8 +3,8 @@
 
 <vehicles>
 	<vehicle id="drt_veh_1_1" start_link="0" t_0="21600" t_1="104400" capacity="4"/>
-	<!-- <vehicle id="drt_veh_1_2" start_link="1" t_0="21600" t_1="104400" capacity="4"/>
-	<vehicle id="drt_veh_2_1" start_link="2" t_0="21600" t_1="104400" capacity="4"/>
+	<vehicle id="drt_veh_1_2" start_link="0" t_0="13000" t_1="20000" capacity="4"/>
+	<!-- <vehicle id="drt_veh_2_1" start_link="2" t_0="21600" t_1="104400" capacity="4"/>
 	<vehicle id="drt_veh_2_2" start_link="2" t_0="21600" t_1="104400" capacity="4"/>
 	<vehicle id="drt_veh_3_1" start_link="3" t_0="21600" t_1="104400" capacity="4"/>
 	<vehicle id="drt_veh_3_2" start_link="3" t_0="21600" t_1="104400" capacity="4"/>

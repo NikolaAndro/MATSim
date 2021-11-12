@@ -6,6 +6,7 @@
 <node id="1" x="0" y="0"/>
 <node id="2" x="0" y="4500"/>
 <node id="3" x="0" y="9000"/>
+<node id="3000" x="-0.00001" y="9000.00001"/>
 <node id="4" x="4000" y="9000"/>
 <node id="5" x="7500" y="9000"/>
 <node id="6" x="11000" y="9000"/>
@@ -31,16 +32,20 @@
 
 <links>
 <link id="0" from="0" to="1" length="0.00001" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="1" from="1" to="2" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="2" from="2" to="3" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="3" from="3" to="4" length="4000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="4" from="4" to="5" length="5000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="5" from="5" to="6" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="6" from="6" to="7" length="5000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="7" from="7" to="8" length="4000" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="8" from="8" to="9" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="9" from="9" to="10" length="300" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
-<link id="10" from="10" to="11" length="1410" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+<link id="1" from="1" to="2" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="2" from="2" to="3" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="3" from="3" to="4" length="4000" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+
+<!-- Mini Link-->
+<link id="3000" from="3000" to="3" length="0.00001" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
+
+<link id="4" from="4" to="5" length="5000" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="5" from="5" to="6" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="6" from="6" to="7" length="5000" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="7" from="7" to="8" length="4000" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="8" from="8" to="9" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="9" from="9" to="10" length="300" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
+<link id="10" from="10" to="11" length="1410" freespeed="16.6666666666667" capacity="900" permlanes="2"/>
 <link id="11" from="11" to="12" length="3500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
 <link id="12" from="12" to="8" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>
 <link id="13" from="12" to="6" length="4500" freespeed="16.6666666666667" capacity="900" permlanes="1"/>

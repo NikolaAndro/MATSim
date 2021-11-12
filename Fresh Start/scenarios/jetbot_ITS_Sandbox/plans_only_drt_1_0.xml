@@ -21,4 +21,20 @@
 
 <!-- ====================================================================== -->
 
+	<person id="0000176">
+		<plan selected="yes">
+			<activity type="dummy" link="33" end_time="5:53:13" >
+			</activity>
+			<leg mode="drt">
+			</leg>
+			<activity type="dummy" link="1" >
+			</activity>
+		</plan>
+
+	</person> 
+
+<!-- ====================================================================== -->
+
+	
+
 </population>

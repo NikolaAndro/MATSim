@@ -1,0 +1,8 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+DrtBusStop---DrtBusStop	0	0	0	0	0	0	1	0	0	0	0	0	0
+DrtStay---DrtBusStop	1	0	0	0	0	0	0	0	0	0	0	0	0
+drt interaction---drt interaction	0	0	0	0	0	0	0	1	0	0	0	0	0
+drt interaction---dummy	1	0	0	0	0	0	0	0	0	0	0	0	0
+dummy---drt interaction	2	0	0	0	0	0	0	0	0	0	0	0	0
+
+average trip duration: 731.0 seconds = 00:12:11
