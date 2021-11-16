@@ -23,10 +23,10 @@ package org.matsim.maas.drt;/*
 
 import org.junit.Test;
 
-public class RunDoorToDoorDrtExampleTest {
+public class Jetbot_RunDoorToDoorDrtExampleTest {
 
     @Test
     public void testDrtDoorToDoor() {
-        RunDoorToDoorDrtExample.main(new String[]{""});
+        Jetbot_RunDoorToDoorDrtExample.main(new String[]{""});
     }
 }
