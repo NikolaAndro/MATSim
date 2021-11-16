@@ -26,7 +26,7 @@ import org.junit.Test;
 public class Jetbot_RunDoorToDoorDrtExampleTest {
 
     @Test
-    public void testDrtDoorToDoor() {
+    public void testJetbotDrtDoorToDoor() {
         Jetbot_RunDoorToDoorDrtExample.main(new String[]{""});
     }
 }
