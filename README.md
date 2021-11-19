@@ -37,6 +37,8 @@ When running test files do the following:
    9. OK
    10. Test Runner: JUnit 4  (@Test in the test file is being used. Otherwise, you can execute it with JUnit 3 as well)
 
+# Visualizing 
+
 5. For visualization of the results, I used software called Via. Via requires a licence that can be gotten for free after providing the name of your institution that you are using Via for. Via software, as well as its manual and sample data can be downloaded [here](https://www.simunto.com/via/download).
 
 6. Once you download and run Via, you will be asked to provide the licence. If you have not gotten one yet, click the button in the bottom right corner "Get a licence online..." that will take you to a website to get the licence.
