@@ -93,3 +93,7 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   - [MATSim Singapore](https://www.youtube.com/watch?v=_N6Z1_yWQf4)
   
   
+# Libraries
+
+[Source](https://depts.washington.edu/dslab/MASS/reports/JohnS_su11.pdf)
+[org.matsim.core.config](https://www.tabnine.com/code/java/classes/org.matsim.core.config.ConfigUtils)
