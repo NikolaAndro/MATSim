@@ -95,5 +95,5 @@ A list of papers and other resources on MATSim in general, dispatcher, and mixed
   
 # Libraries
 
-[Source](https://depts.washington.edu/dslab/MASS/reports/JohnS_su11.pdf)
-[org.matsim.core.config](https://www.tabnine.com/code/java/classes/org.matsim.core.config.ConfigUtils)
+- [Source](https://depts.washington.edu/dslab/MASS/reports/JohnS_su11.pdf)
+- [org.matsim.core.config](https://www.tabnine.com/code/java/classes/org.matsim.core.config.ConfigUtils)
