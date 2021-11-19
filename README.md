@@ -22,6 +22,21 @@ Pegou Example is being implemented in order to test a mixed network of ride-shar
        
 4. Program is ready to be executed.
 
+# Testing
+
+When running test files do the following:
+   
+   1. Right click on testing package
+   2. Run as
+   3. Run configuration
+   4. Select JUnit on the left hand side frop menu
+   5. Select Run all tests in the selected project, package or source folder
+   6. Search button
+   7. Select the src/test/java folder
+   8. Select the test you want to run
+   9. OK
+   10. Test Runner: JUnit 4  (@Test in the test file is being used. Otherwise, you can execute it with JUnit 3 as well)
+
 5. For visualization of the results, I used software called Via. Via requires a licence that can be gotten for free after providing the name of your institution that you are using Via for. Via software, as well as its manual and sample data can be downloaded [here](https://www.simunto.com/via/download).
 
 6. Once you download and run Via, you will be asked to provide the licence. If you have not gotten one yet, click the button in the bottom right corner "Get a licence online..." that will take you to a website to get the licence.
