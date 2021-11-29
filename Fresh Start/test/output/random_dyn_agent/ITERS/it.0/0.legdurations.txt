@@ -1,0 +1,5 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+RandomActivity---Infinite laziness :-)	31	5	4	2	1	0	0	0	0	0	0	0	0
+RandomActivity---RandomActivity	747	268	122	50	16	9	6	1	1	0	0	0	0
+
+average trip duration: 317.47347585114807 seconds = 00:05:17

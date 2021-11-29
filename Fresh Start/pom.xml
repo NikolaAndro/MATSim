@@ -82,7 +82,80 @@
 			<type>test-jar</type>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+		<!-- Adding following dependencies for Dyn Agent Example-->
+		<dependency>
+            <groupId>org.matsim</groupId>
+            <artifactId>matsim-examples</artifactId>
+            <version>12.0</version>
+        </dependency>
+		<dependency>
+			<groupId>com.github.manjunathprabhakar</groupId>
+			<artifactId>cooker-maven-plugin</artifactId>
+			<version>2.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>31.0.1-jre</version>
+		</dependency>
+		<dependency>
+			<groupId>org.matsim.contrib</groupId>
+			<artifactId>otfvis</artifactId>
+			<version>14.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.matsim.contrib</groupId>
+			<artifactId>common</artifactId>
+			<version>14.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.matsim.contrib</groupId>
+			<artifactId>ev</artifactId>
+			<version>14.0-SNAPSHOT</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+		</dependency> -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>one.util</groupId>
+			<artifactId>streamex</artifactId>
+			<version>0.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>3.15.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>3.3.3</version>
+			<scope>test</scope>
+		</dependency>
+		
+ </dependencies>
 
 	<build>
 		<plugins>

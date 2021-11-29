@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
+<config>
+	<module name="controler" >
+		<!-- Default=1000. Last Iteration of a simulation. -->
+		<param name="lastIteration" value="0" />
+		<param name="outputDirectory" value="./test/output/random_dyn_agent/" />
+		<!-- Possible values: failIfDirectoryExists, overwriteExistingFiles, deleteDirectoryIfExists -->
+		<param name="overwriteFiles" value="deleteDirectoryIfExists" />
+	</module>
+	<module name="network" >
+		<param name="inputNetworkFile" value="grid_network.xml" />
+	</module>
+	<module name="otfvis" >
+		<!-- The (initial) size of the agents.  Only a range of numbers is allowed, otherwise otfvis aborts rather ungracefully, or displays no agents at all. -->
+		<param name="agentSize" value="120.0" />
+		<!-- coloring scheme for otfvis.  Currently (2012) allowed values: standard bvg bvg2 byId gtfs taxicab infection -->
+		<param name="coloringScheme" value="byId" />
+		<!-- If non-moving items (e.g. agents at activities, at bus stops, etc.) should be showed.  May affect all non-moving items. -->
+		<param name="drawNonMovingItems" value="true" />
+		<param name="drawTransitFacilities" value="true" />
+		<param name="drawTransitFacilityIds" value="true" />
+		<param name="leftMouseFunc" value="Zoom" />
+		<!-- The (initial) width of the links of the network. Use positive floating point values. -->
+		<param name="linkWidth" value="30.0" />
+		<!-- Link width is proportional to `numberOfLanes' or to `capacity'. -->
+		<param name="linkwidthIsProportionalTo" value="numberOfLanes" />
+		<!-- URL to get WMS tiles from. For a local GeoServer instance, use http://localhost:8080/geoserver/wms?service=WMS& -->
+		<param name="mapBaseURL" value="" />
+		<!-- The WMS layer to display. For GeoServer and a layer called clipped in workspace mz, use mz:clipped -->
+		<param name="mapLayer" value="" />
+		<!-- Render everything on top of map tiles. Default: From tiles.openstreetmap.org -->
+		<param name="mapOverlayMode" value="false" />
+		<param name="middleMouseFunc" value="Pan" />
+		<param name="rightMouseFunc" value="Select" />
+		<param name="showTeleportation" value="false" />
+	</module>
+	<module name="planCalcScore" >
+		<parameterset type="scoringParameters" >
+			<parameterset type="activityParams" >
+				<param name="activityType" value="dummy" />
+				<!-- typical duration of activity.  needs to be defined and non-zero.  in sec. -->
+				<param name="typicalDuration" value="02:00:00" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="car interaction" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="pt interaction" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="bike interaction" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="drt interaction" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="taxi interaction" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="other interaction" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="walk interaction" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="activityParams" >
+				<param name="activityType" value="ride interaction" />
+				<param name="scoringThisActivityAtAll" value="false" />
+				<param name="typicalDuration" value="undefined" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="mode" value="car" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="mode" value="pt" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="mode" value="walk" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="mode" value="bike" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="mode" value="ride" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="mode" value="other" />
+			</parameterset>
+		</parameterset>
+	</module>
+	<module name="planscalcroute" >
+		<parameterset type="teleportedModeParameters" >
+			<param name="mode" value="bike" />
+		</parameterset>
+		<parameterset type="teleportedModeParameters" >
+			<param name="mode" value="walk" />
+		</parameterset>
+		<parameterset type="teleportedModeParameters" >
+			<param name="mode" value="non_network_walk" />
+		</parameterset>
+		<parameterset type="teleportedModeParameters" >
+			<param name="mode" value="ride" />
+		</parameterset>
+		<parameterset type="teleportedModeParameters" >
+			<param name="mode" value="pt" />
+		</parameterset>
+	</module>
+	<module name="qsim" >
+		<!-- Options: maxOfStarttimeAndEarliestActivityEnd onlyUseStarttime  -->
+		<param name="simStarttimeInterpretation" value="onlyUseStarttime" />
+		<!-- snapshotStyle. One of: equiDist queue withHoles withHolesAndShowHoles kinematicWaves  -->
+		<param name="snapshotStyle" value="queue" />
+	</module>
+
+</config>
